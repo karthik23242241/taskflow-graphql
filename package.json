@@ -1,0 +1,12 @@
+{
+  "name": "taskflow-graphql",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "setup": "npm install --prefix backend && npm install --prefix frontend && npm install",
+    "dev": "concurrently --kill-others --names backend,frontend \"npm --prefix backend run dev\" \"npm --prefix frontend run dev\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

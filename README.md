@@ -9,22 +9,13 @@ A small task manager with a React, TypeScript, and Apollo Client frontend and an
 
 ## Run locally
 
-In one terminal:
-
 ```powershell
-cd backend
-npm install
+npm run setup
 npm run dev
 ```
 
-In another terminal:
-
-```powershell
-cd frontend
-npm install
-npm run dev
-```
+`npm run setup` installs the backend, frontend, and root development-runner dependencies. `npm run dev` starts both servers and stops both if either one exits.
 
 Open the frontend at `http://localhost:3000`. The GraphQL API and Apollo Sandbox are available at `http://localhost:4000/`.
 
-To create a production frontend build, run `npm run build` from `frontend`.
+To create a production frontend build, run `npm --prefix frontend run build`.
