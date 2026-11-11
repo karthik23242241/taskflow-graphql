@@ -1,0 +1,38 @@
+export let tasks = [
+  {
+    id: "1",
+    title: "Implement GraphQL API",
+    description: "Create GraphQL schema and resolvers",
+    status: "IN_PROGRESS",
+    priority: "HIGH",
+    assignee: "Vamsi",
+    dueDate: "2026-11-15",
+  },
+  {
+    id: "2",
+    title: "Build React Dashboard",
+    description: "Develop task management UI",
+    status: "COMPLETED",
+    priority: "MEDIUM",
+    assignee: "Rohit",
+    dueDate: "2026-11-10",
+  },
+  {
+    id: "3",
+    title: "Write Unit Tests",
+    description: "Test API queries and mutations",
+    status: "TODO",
+    priority: "LOW",
+    assignee: "Sneha",
+    dueDate: "2026-11-20",
+  },
+  {
+    id: "4",
+    title: "Configure CI/CD",
+    description: "Setup automated deployment",
+    status: "IN_PROGRESS",
+    priority: "HIGH",
+    assignee: "Vamsi",
+    dueDate: "2026-11-22",
+  },
+];
